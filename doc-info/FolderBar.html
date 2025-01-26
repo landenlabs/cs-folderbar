@@ -1,0 +1,219 @@
+<html>
+
+<head>
+  <style>
+    BODY {                                                            
+        color: #ffffff;
+    }
+    LI { color:Yellow; }
+    H2 { color:Orange; }
+  </style>
+  <title>Dennis Lang Source code and performance metrics</title>
+</head>
+
+<BODY bgcolor="#404040" vlink="#f0fff0" hlink="#80ff80" alink="#80ff00" link=#ffffff>
+
+<table>
+<tr>
+  <td><img src="logo.png">
+  
+  <td> 
+    <span style="font-size:x-large; font-weight:bold;";> Welcome to Dennis Lang's</span> <br>
+    <span style="font-size:large; color:#ff0000;"> Source Code and Performance Metrics </span><br>
+    <p>
+    landenlabs.app<b>@</b>gmail.com <br>Linkedin: http://www.linkedin.com/pub/1/119/293 <p>
+    Updated: 27-Feb-2010
+    <p>
+    <a href="https://landenlabs.com/index.html" color=blue > [ To Main Page ] </a>
+
+    <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+    <!-- The terms of service are available at /coop/docs/cse/tos.html -->
+    <form name="cse" id="searchbox" action="http://www.google.com/cse">
+      <input type="hidden" name="cref" value="" />
+      <input type="hidden" name="ie" value="utf-8" />
+      <input type="hidden" name="hl" value="" />
+      <input type="hidden" name="sitesearch" value="landenlabs.com/" />
+      <input name="q" type="text" size="40" />
+      <input type="submit" name="sa" value="Search" />
+    </form>
+    <script type="text/javascript" src="http://www.google.com/cse/tools/onthefly?form=searchbox&lang="></script>
+</table>
+
+<p>
+<a name=top>
+<p>
+<hr>
+<p>
+<a name=picviewer>
+<h2>C# - FolderBar v1.4 - Compact File Explorer to be used as a Tool Bar (March 2010) </h2>
+
+<table frame="box">
+  <tr>
+    <td>
+      <img alt="folderbar" src="FolderBar64.png"> 
+    <td>
+        <li>Download source code: <a href="folderbar-v1.4-src.zip"> <b> FolderBar-v1.4-src.zip </b> <a>
+        <li>Download executable: <a href="folderbar-v1.4.exe"> <b> FolderBar-v1.4.exe </b> </a>
+</table>
+<p>
+  C# Application emulates File Explorer but adds some eye candy controls to set pictures and colorize the four sides of the viewer.
+  I created FileBar because Windows7 no longer supports multiple toolbars. 
+  FileBar is similar to file explorer in that you can navigate to directories and view the information as Icons, List or Detailed.
+  When you exit FileBar it saves its size, position, directory and look to a <b>profile.fb</b>  file in the windows application directory.
+  If you select Profile from the context menu it will show you all the saved profiles. If you click on a <b>.fb</b> file it will launch
+  FileBar and it will appear with its old settings.
+  <p>
+  Command line options:
+  <table border=1>
+    <tr><td>FileBar.exe  <b>directoryPath</b>  <td>Show directory files and try and load profile associated with directory,
+    <tr><td>FileBar.exe  <b>profile.fb</b>     <td>Load saved profile, restoring directory and look.
+    <tr><td>-autoStart                         <td>Launch FolderBar for every saved profile.
+  </table>
+  <p>
+  You can filter the file list by pressing control-F. 
+  Any files which contain the filter text will remain. 
+  Enter an empty filter and hit enter to restore the full list.
+  Press escape to restore the file path bar.
+  <p>
+  When you enter text in the file bar it will provide auto completion suggestions. Press TAB to select first choice.
+  <p>
+  Pressing the FileBar button will toggle the tree navigation panel on or off.
+  Right click on the button to access the context menu.  Right click on any of the four panels will display the context menu.
+  Control click on top panel to toggle windows Frame.  Click and drag top panel to move dialog around desktop.
+
+  <p>
+
+<table frame="box">
+<tr><td>
+<h2>Settings Dialog, pick images, colors, text and fonts</h2>
+Special text: {0} for root director, {1} for full directory path.
+<tr><td>
+<img alt="setting" src="setting.png">
+</table>
+
+<p>
+<br>
+<p>
+
+
+<table frame="box">
+<tr><td>
+<h2>Navigation tree and Detail file view</h2>
+<img alt="fullview" src="fullview.png">
+</table>
+
+<p>
+<br>
+<p>
+
+<table frame="box">
+<tr><td>
+<h2>Control-F enables Filter control</h2>
+Escape to close filter, enter black filter restore all files.
+<tr><td>
+<img alt="filter" src="filter.png">
+</table>
+
+<p>
+<br>
+<p>
+
+
+<table frame="box">
+<tr><td>
+<h2>Large Icon view</h2>
+<img alt="iconview" src="iconview.png">
+</table>
+
+<p>
+<br>
+<p>
+
+
+
+<table>
+<tr><td>
+
+<table frame="box">
+<tr><td>
+<h2>Sized to be used as a file bar</h2>
+<img alt="bar1" src="bar1.png">
+</table>
+
+<td>
+<table frame="box">
+<tr><td>
+<h2>Control-left click on top <br>bar to hide windows frame</h2>
+<img alt="bar2" src="bar2.png">
+</table>
+
+</table>
+<p>
+<br>
+<p>
+
+
+
+<table frame="box">
+<tr><td>
+<h2>Transparent Background</h2>
+By setting any of the panels background to pure green, it becomes transparent.<br>
+This image shows a side effect of leaving the icons at 32bits.<br>  
+Samples further down set icon style to 8bit to avoid the green halo.
+<tr><td>
+<img alt="transparentBg" src="transparentBg.jpg">
+</table>
+
+<p>
+<br>
+<p>
+
+
+
+<table frame="box">
+<tr><td>
+<h2>Various single <b>Main</b> image looks </h2>
+<tr><td>
+<img alt="demo1" src="demo1.jpg">
+<td>
+<img alt="demo2" src="demo2.jpg">
+<td>
+<img alt="demo3" src="demo3.jpg">
+</table>
+
+<p>
+<br>
+<p>
+
+
+
+<table frame="box">
+<tr><td>
+<h2>Some transparent and solid looks </h2>
+<tr><td>
+<img alt="demo4" src="demo4.jpg">
+<tr><td>
+<img alt="demo5" src="demo5.jpg">
+</table>
+
+<p>
+<br>
+<p>
+
+
+
+
+
+
+<a href=#top> Top </a>
+
+
+<p> 
+<div style="background-color:grey;">
+<img src="/~lang.dennis/site/exec/counter.cgi">
+</div>
+<p>
+
+</body>
+</html>
+
